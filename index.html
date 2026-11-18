@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Guido Layumas — Portfolio</title>
+<style>
+:root{--ink:#1c1f21;--slate:#464c50;--soft:#d9dadb;--paper:#f6f6f5;--accent:#e0a526;}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:Montserrat,"Segoe UI",system-ui,sans-serif;color:var(--ink);background:#fff;line-height:1.6}
+a{color:inherit}
+nav{position:sticky;top:0;z-index:10;background:var(--slate);display:flex;justify-content:center;gap:28px;padding:14px 20px;flex-wrap:wrap}
+nav a{color:#fff;text-decoration:none;font-size:13px;letter-spacing:.12em;text-transform:uppercase}
+nav a:hover{color:var(--accent)}
+.hero{background:var(--slate);color:#fff;text-align:center;padding:90px 24px 80px}
+.hero h1{font-size:clamp(44px,9vw,92px);font-weight:700;line-height:1.05}
+.hero .role{margin-top:18px;font-size:clamp(15px,2.4vw,22px);letter-spacing:.06em;color:#e8e8e8}
+.hero .rule{width:min(640px,80%);height:2px;background:#111;margin:28px auto}
+.hero .contact{font-size:15px;color:#dcdcdc}
+.btn{display:inline-block;margin-top:30px;padding:13px 30px;background:var(--accent);color:#1c1f21;font-weight:600;text-decoration:none;letter-spacing:.06em;border-radius:2px}
+section{padding:80px 24px}
+.wrap{max-width:1040px;margin:0 auto}
+h2{font-size:32px;margin-bottom:8px}
+h2+.bar{width:56px;height:3px;background:var(--accent);margin-bottom:34px}
+.alt{background:var(--paper)}
+.about p{max-width:720px;font-size:18px}
+.tags{display:flex;flex-wrap:wrap;gap:10px;margin-top:26px}
+.tags span{background:var(--slate);color:#fff;padding:7px 16px;font-size:13px;border-radius:30px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:22px}
+.card{background:#fff;border:1px solid #e2e2e0;padding:26px;border-radius:4px}
+.alt .card{border-color:transparent}
+.card h3{font-size:17px;margin-bottom:8px}
+.card p,.card li{font-size:15px;color:#3b4044}
+.card ul{padding-left:18px}
+.job{display:grid;grid-template-columns:230px 1fr;gap:30px;padding:30px 0;border-top:1px solid #ddd}
+.job:first-of-type{border-top:0}
+.job .meta h3{font-size:18px}
+.job .meta p{font-size:14px;color:#666}
+.job ul{padding-left:20px}
+.job li{margin-bottom:5px}
+.tools{margin-top:14px;font-size:14px;color:#555}
+.tools b{color:var(--ink)}
+.certs{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:28px}
+.cert{background:#fff;border-radius:4px;overflow:hidden;box-shadow:0 2px 14px rgba(0,0,0,.08)}
+.cert img{width:100%;display:block;cursor:zoom-in;aspect-ratio:3/2;object-fit:cover}
+.cert div{padding:18px 20px}
+.cert h3{font-size:16px}
+.cert p{font-size:13px;color:#666;margin-top:4px}
+.edu{font-size:18px}
+.edu small{display:block;color:#666;font-size:15px}
+footer{background:var(--slate);color:#fff;text-align:center;padding:60px 24px}
+footer p{margin:6px 0;color:#e4e4e4}
+#lb{display:none;position:fixed;inset:0;background:rgba(0,0,0,.88);z-index:50;align-items:center;justify-content:center;padding:20px;cursor:zoom-out}
+#lb img{max-width:100%;max-height:100%}
+@media(max-width:700px){.job{grid-template-columns:1fr;gap:10px}section{padding:56px 20px}}
+</style>
+</head>
+<body>
+<nav><a href="#about">About</a><a href="#skills">Skills</a><a href="#experience">Experience</a><a href="#certificates">Certificates</a><a href="#contact">Contact</a></nav>
+
+<header class="hero">
+  <h1>Guido Layumas</h1>
+  <p class="role">Assistant Transaction Coordinator · Lead Generation Specialist · Web Developer · Graphic Designer</p>
+  <div class="rule"></div>
+  <p class="contact">San Carlos City, Negros Occidental, Philippines</p>
+  <a class="btn" href="#contact">Get in touch</a>
+</header>
+
+<section id="about" class="about"><div class="wrap">
+  <h2>About Me</h2><div class="bar"></div>
+  <p>I'm a virtual assistant and creative who supports real estate teams with listings, offers and transactions, and builds the websites and graphics that market them. I'm reliable, goal-oriented and communicate clearly in speech and in writing.</p>
+  <div class="tags"><span>Real Estate Transactions</span><span>Lead Generation</span><span>Web Development</span><span>Graphic Design</span><span>Canva</span><span>Wix</span><span>WordPress</span></div>
+</div></section>
+
+<section id="skills" class="alt"><div class="wrap">
+  <h2>Skills &amp; Proficiencies</h2><div class="bar"></div>
+  <div class="grid">
+    <div class="card"><h3>Communication</h3><p>Great oral and written communication skills.</p></div>
+    <div class="card"><h3>Social Media Material</h3><p>Expert at creating social media material through Canva.</p></div>
+    <div class="card"><h3>Website Creation</h3><p>Experienced in creating and maintaining websites in Wix and WordPress.</p></div>
+    <div class="card"><h3>Graphic Design</h3><p>Artistic eye for graphic design: posters, postcards, layouts, video edits and 3D modeling.</p></div>
+    <div class="card"><h3>Reliability</h3><p>Dependable and goal-oriented, with a focus on getting the details right.</p></div>
+  </div>
+</div></section>
+
+<section id="experience"><div class="wrap">
+  <h2>Work Experience</h2><div class="bar"></div>
+
+  <div class="job"><div class="meta"><h3>Real Estate Transaction Coordinator</h3><p>iAssist Center Based Virtual Assistant<br>Market: California</p></div>
+  <div><ul>
+    <li>Prepare listing packets, write up offers and organize disclosures.</li>
+    <li>Enter listings into the MLS.</li>
+    <li>Create posters, edit videos and post them on social media.</li>
+    <li>Enter listings and transactions into different CRMs and platforms.</li>
+    <li>Create offers and CMAs.</li>
+    <li>Send intro emails and handle all email coordination.</li>
+    <li>Schedule post-closing tasks such as changing status in MLS and other platforms.</li>
+    <li>Create postcards and edit websites.</li>
+  </ul>
+  <p class="tools"><b>Tools:</b> MLS (Matrix and Paragon), Zipforms, Docusign, Dotloop, Skyslope, TCDocs, Brivity, FUB, CTE, Zillow, Google Office, Canva, corefact, WIX, zBuyer</p></div></div>
+
+  <div class="job"><div class="meta"><h3>Web Designer</h3><p>The Local Shack<br>Market: Australia</p></div>
+  <div><ul><li>Edited and improved the website using Wix.</li></ul></div></div>
+
+  <div class="job"><div class="meta"><h3>Lead Generation</h3><p>Makua<br>Market: California</p></div>
+  <div><ul><li>Sent outreach emails to nonprofit organizations.</li></ul><p class="tools"><b>Tools:</b> Close, Slack</p></div></div>
+
+  <div class="job"><div class="meta"><h3>IT Programmer &amp; Graphic Designer</h3><p>LGU San Carlos</p></div>
+  <div><ul>
+    <li>Edited, designed and maintained the website using WordPress.</li>
+    <li>Made layouts using Canva and Photoshop.</li>
+    <li>3D modeling using Maya Autodesk.</li>
+  </ul></div></div>
+</div></section>
+
+<section id="certificates" class="alt"><div class="wrap">
+  <h2>Certificates</h2><div class="bar"></div>
+  <div class="certs">
+    <div class="cert"><img src="AI Digital Workshop.jpg" alt="Certificate of Appreciation, AI Digital Workshop for MSMEs in the Tourism Sector"><div><h3>AI Digital Workshop for MSMEs (Tourism Sector)</h3><p>Certificate of Appreciation · July 9, 2026 · Learning Management Team (Assistant), AI and Canva presentation · Tech4Ed Center, San Carlos City</p></div></div>
+    <div class="cert"><img src="Training of trainers.jpg" alt="Certificate of Completion, Training of Trainers for Partner Tech4ED Center Managers"><div><h3>Training of Trainers, Tech4ED Center Managers</h3><p>Certificate of Completion · September 1–3, 2026 · Cyber Hygiene, Mobile Photography &amp; Social Media Marketing, Intro to Cisco Networking Academy · DICT NIR</p></div></div>
+    <div class="cert"><img src="Basic Photo Editing.jpg" alt="Certificate of Appreciation, Basic Photo Editing Training Using Adobe Photoshop"><div><h3>Basic Photo Editing Training (Adobe Photoshop)</h3><p>Certificate of Appreciation · March 3–7, 2025 · Assistance and support · DTC-Tech4ED, City of San Carlos</p></div></div>
+  </div>
+</div></section>
+
+<section id="education"><div class="wrap">
+  <h2>Education</h2><div class="bar"></div>
+  <p class="edu">University of San Jose–Recoletos<small>Bachelor of Science in Information Technology · Magallanes Street, Cebu City</small></p>
+</div></section>
+
+<footer id="contact">
+  <h2 style="color:#fff">Let's Work Together</h2>
+  <p>Email: <a href="mailto:guidosalah19@gmail.com">guidosalah19@gmail.com</a></p>
+  <p>Phone: +63 918 711 6536</p>
+  <p>Burgos Street, San Carlos City, Negros Occidental, Philippines 6127</p>
+</footer>
+
+<div id="lb"><img alt=""></div>
+<script>
+var lb=document.getElementById('lb'),li=lb.querySelector('img');
+document.querySelectorAll('.cert img').forEach(function(i){i.onclick=function(){li.src=i.src;lb.style.display='flex'}});
+lb.onclick=function(){lb.style.display='none'};
+</script>
+</body>
+</html>
